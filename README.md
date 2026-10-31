@@ -18,7 +18,7 @@ The game demonstrates the following parts of the Kotlin language:
 
 My purpose in writing this was to practice the core syntax in a program small enough to understand completely, but with enough structure (a class, enums, and separate functions) to show how Kotlin code is organized in practice.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=OZeOWGNMMug)
 
 # Development Environment
 
