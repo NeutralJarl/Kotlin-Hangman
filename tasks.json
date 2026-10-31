@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Hangman",
+      "type": "shell",
+      "command": "kotlinc Main.kt -include-runtime -d hangman.jar",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run Hangman",
+      "type": "shell",
+      "command": "java -jar hangman.jar",
+      "dependsOn": "Build Hangman",
+      "problemMatcher": [],
+      "presentation": { "focus": true }
+    }
+  ]
+}
